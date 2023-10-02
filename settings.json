@@ -1,0 +1,12 @@
+{
+    "callpanel": {
+        "login": "admin",
+        "password": "11051990"
+    },
+    "version": "v0",
+    "access1": "1",
+    "access2": "2",
+    "reboottime": [
+        "5:0:0"
+    ]
+}
