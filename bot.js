@@ -1,6 +1,6 @@
 "use strict";
 
-const settings = require("./settings.json"); // Данные для БД
+const settings = require("./settings.json"); // Данные для БД и бота
 const mysql = require("mysql"); // Библиотека для работы с базой данных
 const TelegramBot = require("node-telegram-bot-api"); // Библиотека для работы с ботом Телеграм
 const axios = require("axios"); // Библиотека для работы с запросами
@@ -17,7 +17,7 @@ axios.defaults.timeout = 500;
 
 // Подключение к базе данных
 const connection = mysql.createPool({
-  host: "195.93.252.183",
+  host: "***.***.***.***",
   user: "staff",
   password: "pa$$w0rd",
   database: "bas-ip",
